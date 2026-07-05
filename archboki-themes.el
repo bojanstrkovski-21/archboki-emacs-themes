@@ -52,6 +52,12 @@ magenta, cyan, gray, orange, hint, cursorline."
      `(tooltip ((t (:foreground ,.foreground :background ,.background))))
      `(child-frame-border ((t (:background ,.foreground))))
 
+     ;; Keycap hints in prompts (e.g. the "y"/"n" in y-or-n-p
+     ;; confirmations). Left unset this falls back to Emacs's built-in
+     ;; grey96/grey80 keycap box, which clashes with every theme here.
+     `(help-key-binding ((t (:foreground ,.foreground :background ,.darkblue
+                             :box (:line-width (-1 . -1) :color ,.gray)))))
+
      ;; Search
      `(isearch ((t (:foreground ,.background :background ,.cyan))))
      `(lazy-highlight ((t (:foreground ,.background :background ,.cyan))))
