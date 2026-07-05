@@ -30,16 +30,24 @@ Merged from default_light.xaml (UI chrome) and Everforest Light
 ;; Give the active modeline a soft green tint (echoing the
 ;; Everforest-derived green accent used elsewhere, e.g. Doom's
 ;; dashboard shortcuts) instead of the engine's default sage-grey
-;; panel color. Emacs themes give priority to the first
+;; panel color. The engine's raw accent colors (orange/cyan/green/red)
+;; are all near-invisible against this olive modeline background, so
+;; the doom-modeline icon faces get darkened, higher-contrast
+;; variants here too. Emacs themes give priority to the first
 ;; `custom-theme-set-faces' call for a given face, so this override
 ;; must be registered before `archboki-themes--set-faces' below.
 (custom-theme-set-faces
  'archboki-light-2
- '(mode-line ((t (:foreground "#1A1A1A" :background "#a7ad84")))))
+ '(mode-line ((t (:foreground "#1A1A1A" :background "#a7ad84"))))
+ '(doom-modeline-buffer-modified ((t (:foreground "#7C3806" :bold t))))
+ '(doom-modeline-project-dir ((t (:foreground "#1A523D" :bold t))))
+ '(doom-modeline-info ((t (:foreground "#394100"))))
+ '(doom-modeline-warning ((t (:foreground "#7C3806"))))
+ '(doom-modeline-urgent ((t (:foreground "#AA0A07")))))
 
 (archboki-themes--set-faces
  'archboki-light-2
- '((background   . "#a8ba8d")
+ '((background   . "#bdd19f")
    (foreground   . "#1A1A1A")
    (red          . "#F85552")
    (green        . "#8DA101")
