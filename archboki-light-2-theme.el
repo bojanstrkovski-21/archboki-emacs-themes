@@ -47,7 +47,7 @@ Merged from default_light.xaml (UI chrome) and Everforest Light
 
 (archboki-themes--set-faces
  'archboki-light-2
- '((background   . "#bdd19f")
+ '((background   . "#c2d6a3")
    (foreground   . "#1A1A1A")
    (red          . "#F85552")
    (green        . "#8DA101")
@@ -59,7 +59,7 @@ Merged from default_light.xaml (UI chrome) and Everforest Light
    (gray         . "#939F91")
    (orange       . "#F57D26")
    (hint         . "#3A94C5")
-   (cursorline   . "#DEE3D6")))
+   (cursorline   . "#D0DFB8")))
 
 ;;;###autoload
 (when load-file-name

@@ -59,7 +59,7 @@ Merged from default_light.xaml (UI chrome) and Everforest Light
    (gray         . "#939F91")
    (orange       . "#F57D26")
    (hint         . "#3A94C5")
-   (cursorline   . "#E9EDE3")))
+   (cursorline   . "#D7E0CB")))
 
 ;;;###autoload
 (when load-file-name
