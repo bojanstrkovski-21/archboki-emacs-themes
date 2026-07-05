@@ -12,11 +12,13 @@
 ;; UI chrome (foreground, modeline, cursorline, accent blue) is
 ;; taken from the `default_light.xaml' resource dictionary used in
 ;; the system-pkgs-checker project, with the background shifted to
-;; a dimmed sage/green-tinted tone rather than pure white. Syntax
-;; accent colors not present in that file (red, green, yellow,
-;; orange, magenta, cyan, gray, hint) are filled in from the
-;; Everforest Light palette (medium contrast) by sainnhe/everforest,
-;; chosen for good legibility on a light background.
+;; a saturated sage/olive green. The syntax accent colors started
+;; from the Everforest Light palette (medium contrast) by
+;; sainnhe/everforest, but that palette targets a near-white
+;; background; against this darker green one they were down to
+;; ~1.5-2:1 contrast, so each accent (and `gray') has been darkened
+;; here to keep ~3.3-4.8:1 contrast against both the main background
+;; and `cursorline'.
 
 ;;; Code:
 
@@ -50,15 +52,15 @@ Merged from default_light.xaml (UI chrome) and Everforest Light
  'archboki-light-2
  '((background   . "#c2d6a3")
    (foreground   . "#1A1A1A")
-   (red          . "#F85552")
-   (green        . "#8DA101")
-   (yellow       . "#DFA000")
+   (red          . "#AF0A07")
+   (green        . "#4F5A01")
+   (yellow       . "#745300")
    (blue         . "#0078D4")
    (darkblue     . "#D7DCCE")
-   (magenta      . "#DF69BA")
-   (cyan         . "#35A77C")
-   (gray         . "#939F91")
-   (orange       . "#F57D26")
+   (magenta      . "#9D2176")
+   (cyan         . "#1F6148")
+   (gray         . "#606C5E")
+   (orange       . "#904007")
    (hint         . "#3A94C5")
    (cursorline   . "#A7B98C")))
 
