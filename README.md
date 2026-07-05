@@ -1,4 +1,4 @@
-# archboki-themes
+# archboki-themes-2026
 
 A small collection of colorful, legible themes for GNU Emacs, ported from
 my [archboki_nvim](https://github.com/bojanstrkovski-21/archboki_nvim)
