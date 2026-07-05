@@ -9,38 +9,39 @@
 ;;; Commentary:
 
 ;; Light variant of the archboki theme family.
-;; UI chrome (background, foreground, modeline, cursorline, accent
-;; blue) is taken from the `default_light.xaml' resource dictionary
-;; used in the system-pkgs-checker project. Syntax accent colors not
-;; present in that file (red, green, yellow, orange, magenta, cyan,
-;; gray, hint) are filled in from the Everforest Light palette
-;; (medium contrast) by sainnhe/everforest, chosen for good
-;; legibility on a white background.
+;; UI chrome (foreground, modeline, cursorline, accent blue) is
+;; taken from the `default_light.xaml' resource dictionary used in
+;; the system-pkgs-checker project, with the background shifted to
+;; a soft sage/green-tinted white rather than pure white. Syntax
+;; accent colors not present in that file (red, green, yellow,
+;; orange, magenta, cyan, gray, hint) are filled in from the
+;; Everforest Light palette (medium contrast) by sainnhe/everforest,
+;; chosen for good legibility on a light background.
 
 ;;; Code:
 
 (require 'archboki-themes)
 
 (deftheme archboki-light
-  "Light theme with white background and Everforest-derived accents.
+  "Light theme with sage-tinted white background and Everforest-derived accents.
 Merged from default_light.xaml (UI chrome) and Everforest Light
 (syntax accents).")
 
 (archboki-themes--set-faces
  'archboki-light
- '((background   . "#FFFFFF")
+ '((background   . "#F3F6EE")
    (foreground   . "#1A1A1A")
    (red          . "#F85552")
    (green        . "#8DA101")
    (yellow       . "#DFA000")
    (blue         . "#0078D4")
-   (darkblue     . "#E8E8E8")
+   (darkblue     . "#E4E9DE")
    (magenta      . "#DF69BA")
    (cyan         . "#35A77C")
    (gray         . "#939F91")
    (orange       . "#F57D26")
    (hint         . "#3A94C5")
-   (cursorline   . "#F5F5F5")))
+   (cursorline   . "#E9EDE3")))
 
 ;;;###autoload
 (when load-file-name
