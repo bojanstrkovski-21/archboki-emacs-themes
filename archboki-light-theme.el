@@ -35,11 +35,11 @@ Merged from default_light.xaml (UI chrome) and Everforest Light
 ;; must be registered before `archboki-themes--set-faces' below.
 (custom-theme-set-faces
  'archboki-light
- '(mode-line ((t (:foreground "#1A1A1A" :background "#DDE3BA")))))
+ '(mode-line ((t (:foreground "#1A1A1A" :background "#a6ad78")))))
 
 (archboki-themes--set-faces
  'archboki-light
- '((background   . "#F3F6EE")
+ '((background   . "#c9d4b8")
    (foreground   . "#1A1A1A")
    (red          . "#F85552")
    (green        . "#8DA101")
