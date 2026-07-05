@@ -39,6 +39,7 @@ Merged from default_light.xaml (UI chrome) and Everforest Light
 (custom-theme-set-faces
  'archboki-light
  '(mode-line ((t (:foreground "#1A1A1A" :background "#a6ad78"))))
+ '(minibuffer-prompt ((t (:foreground "#1A523D"))))
  '(doom-modeline-buffer-modified ((t (:foreground "#7C3806" :bold t))))
  '(doom-modeline-project-dir ((t (:foreground "#1A523D" :bold t))))
  '(doom-modeline-info ((t (:foreground "#394100"))))
@@ -59,7 +60,7 @@ Merged from default_light.xaml (UI chrome) and Everforest Light
    (gray         . "#939F91")
    (orange       . "#F57D26")
    (hint         . "#3A94C5")
-   (cursorline   . "#D7E0CB")))
+   (cursorline   . "#A7B98C")))
 
 ;;;###autoload
 (when load-file-name
