@@ -1,4 +1,4 @@
-;;; archboki-light-theme.el --- Light theme, merged from default_light.xaml and Everforest Light -*- lexical-binding: t; no-byte-compile: t; -*-
+;;; archboki-light-2-theme.el --- Light theme, merged from default_light.xaml and Everforest Light -*- lexical-binding: t; no-byte-compile: t; -*-
 
 ;; Author: bojanstrkovski-21
 ;; URL: https://github.com/bojanstrkovski-21/archboki-emacs-themes
@@ -22,7 +22,7 @@
 
 (require 'archboki-themes)
 
-(deftheme archboki-light
+(deftheme archboki-light-2
   "Light theme with dimmed sage-tinted background and Everforest-derived accents.
 Merged from default_light.xaml (UI chrome) and Everforest Light
 (syntax accents).")
@@ -34,11 +34,11 @@ Merged from default_light.xaml (UI chrome) and Everforest Light
 ;; `custom-theme-set-faces' call for a given face, so this override
 ;; must be registered before `archboki-themes--set-faces' below.
 (custom-theme-set-faces
- 'archboki-light
+ 'archboki-light-2
  '(mode-line ((t (:foreground "#1A1A1A" :background "#D2DAAF")))))
 
 (archboki-themes--set-faces
- 'archboki-light
+ 'archboki-light-2
  '((background   . "#E6EAE0")
    (foreground   . "#1A1A1A")
    (red          . "#F85552")
@@ -58,6 +58,6 @@ Merged from default_light.xaml (UI chrome) and Everforest Light
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'archboki-light)
+(provide-theme 'archboki-light-2)
 
-;;; archboki-light-theme.el ends here
+;;; archboki-light-2-theme.el ends here

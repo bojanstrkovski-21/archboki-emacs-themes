@@ -30,7 +30,7 @@ Palette ported from sainnhe/everforest.")
 ;; below.
 (custom-theme-set-faces
  'archboki-everforest-light-soft
- '(mode-line ((t (:foreground "#5c6a72" :background "#D5D7A1")))))
+ '(mode-line ((t (:foreground "#5c6a72" :background "#B9C0AB")))))
 
 (archboki-themes--set-faces
  'archboki-everforest-light-soft

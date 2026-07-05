@@ -10,6 +10,7 @@ Neovim colorscheme.
 |------------|-------|-----------------------------------------------------------|
 | `archboki-dark` | dark  | Slate-blue background with green foreground and neon cyan/magenta/yellow accents |
 | `archboki-light` | light | White/grey background (from `default_light.xaml`) with Everforest Light accent colors |
+| `archboki-light-2` | light | Second take on the light theme: dimmer sage-tinted background, green-tinted modeline |
 | `archboki-everforest-dark-hard` | dark | [Everforest](https://github.com/sainnhe/everforest) dark, hard contrast, ported verbatim |
 | `archboki-everforest-dark-medium` | dark | Everforest dark, medium contrast, ported verbatim |
 | `archboki-everforest-dark-soft` | dark | Everforest dark, soft contrast, ported verbatim |
