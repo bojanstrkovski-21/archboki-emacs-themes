@@ -13,6 +13,8 @@ Neovim colorscheme.
 
 More variants may be added over time (see [Adding a new theme](#adding-a-new-theme) below).
 
+Also you can find a lot more themes on https://github.com/tinted-theming/base16-emacs
+
 ## Installation
 
 ### Doom Emacs

@@ -27,6 +27,19 @@
 Merged from default_light.xaml (UI chrome) and Everforest Light
 (syntax accents).")
 
+;; The shared engine's generic `mode-line' face uses the main
+;; background color as foreground text (a scheme that only works
+;; when the modeline background is darker than the frame, as in the
+;; dark theme). On this light theme that left near-white text on a
+;; near-white modeline, so override it here with a legible dark
+;; foreground. Emacs themes give priority to the first
+;; `custom-theme-set-faces' call for a given face, so this override
+;; must be registered before `archboki-themes--set-faces' below.
+(custom-theme-set-faces
+ 'archboki-light
+ '(mode-line ((t (:foreground "#1A1A1A" :background "#D7DCCE"))))
+ '(mode-line-inactive ((t (:foreground "#939F91" :background "#E6EAE0")))))
+
 (archboki-themes--set-faces
  'archboki-light
  '((background   . "#E6EAE0")
