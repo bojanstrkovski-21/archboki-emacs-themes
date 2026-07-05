@@ -17,12 +17,34 @@ Neovim colorscheme.
 | `archboki-everforest-light-hard` | light | Everforest light, hard contrast, ported verbatim |
 | `archboki-everforest-light-medium` | light | Everforest light, medium contrast, ported verbatim |
 | `archboki-everforest-light-soft` | light | Everforest light, soft contrast, ported verbatim |
+| `archboki-evergarden-winter` | dark | [Evergarden](https://codeberg.org/evergarden/nvim) winter, ported verbatim |
+| `archboki-evergarden-fall` | dark | Evergarden fall, ported verbatim |
+| `archboki-evergarden-spring` | dark | Evergarden spring, ported verbatim |
+| `archboki-evergarden-lunar` | dark | Evergarden lunar (distinct bluer accents), ported verbatim |
+| `archboki-evergarden-summer` | light | Evergarden summer, ported verbatim |
+| `archboki-dracula-pro` | dark | [Dracula Pro Version](https://github.com/caiovellani/dracula-pro) (purple), ported verbatim |
+| `archboki-dracula-pro-black` | dark | Dracula Pro Version, black variant, ported verbatim |
 
 The `archboki-everforest-*` themes are direct ports of the color
 palettes from [sainnhe/everforest](https://github.com/sainnhe/everforest)
 (MIT licensed) — huge thanks to sainnhe for designing and maintaining
 that colorscheme. Only the mapping onto this collection's shared face
 engine is original work here.
+
+The `archboki-evergarden-*` themes are direct ports of the color
+palettes from [evergarden/nvim](https://codeberg.org/evergarden/nvim)
+(EUPL-1.2 licensed) — huge thanks to its authors for designing and
+maintaining that colorscheme. Only the mapping onto this collection's
+shared face engine is original work here.
+
+The `archboki-dracula-pro*` themes are direct ports of the color
+palettes from Caio Vellani's free
+[Dracula Pro Version](https://github.com/caiovellani/dracula-pro) VS
+Code theme (no license file is published upstream) — thanks to Caio
+for publishing it. Note this is an independently authored *free*
+theme "inspired by" the paid Dracula Pro product, not a port of that
+paid product's own palette. Only the mapping onto this collection's
+shared face engine is original work here.
 
 More variants may be added over time (see [Adding a new theme](#adding-a-new-theme) below).
 
