@@ -8,8 +8,20 @@ Neovim colorscheme.
 
 | Name       | Style | Description                                              |
 |------------|-------|-----------------------------------------------------------|
-| `archboki` | dark  | Slate-blue background with green foreground and neon cyan/magenta/yellow accents |
+| `archboki-dark` | dark  | Slate-blue background with green foreground and neon cyan/magenta/yellow accents |
 | `archboki-light` | light | White/grey background (from `default_light.xaml`) with Everforest Light accent colors |
+| `archboki-everforest-dark-hard` | dark | [Everforest](https://github.com/sainnhe/everforest) dark, hard contrast, ported verbatim |
+| `archboki-everforest-dark-medium` | dark | Everforest dark, medium contrast, ported verbatim |
+| `archboki-everforest-dark-soft` | dark | Everforest dark, soft contrast, ported verbatim |
+| `archboki-everforest-light-hard` | light | Everforest light, hard contrast, ported verbatim |
+| `archboki-everforest-light-medium` | light | Everforest light, medium contrast, ported verbatim |
+| `archboki-everforest-light-soft` | light | Everforest light, soft contrast, ported verbatim |
+
+The `archboki-everforest-*` themes are direct ports of the color
+palettes from [sainnhe/everforest](https://github.com/sainnhe/everforest)
+(MIT licensed) — huge thanks to sainnhe for designing and maintaining
+that colorscheme. Only the mapping onto this collection's shared face
+engine is original work here.
 
 More variants may be added over time (see [Adding a new theme](#adding-a-new-theme) below).
 
@@ -29,7 +41,7 @@ In `packages.el`:
 In `config.el`:
 
 ```elisp
-(setq doom-theme 'archboki)
+(setq doom-theme 'archboki-dark)
 ```
 
 Then run:
@@ -46,7 +58,7 @@ and restart Emacs.
 (use-package archboki-themes
   :straight (:host github :repo "bojanstrkovski-21/archboki-emacs-themes")
   :config
-  (load-theme 'archboki t))
+  (load-theme 'archboki-dark t))
 ```
 
 ### Manual
@@ -59,7 +71,7 @@ git clone https://github.com/bojanstrkovski-21/archboki-emacs-themes.git ~/.conf
 
 ```elisp
 (add-to-list 'custom-theme-load-path "~/.config/doom/themes/archboki-emacs-themes/")
-(load-theme 'archboki t)
+(load-theme 'archboki-dark t)
 ```
 
 ## Adding a new theme
@@ -67,7 +79,7 @@ git clone https://github.com/bojanstrkovski-21/archboki-emacs-themes.git ~/.conf
 Every theme in this collection shares one engine (`archboki-themes.el`),
 which turns a palette alist into every face mapping. To add a new theme:
 
-1. Copy `archboki-theme.el` to `archboki-<name>-theme.el`.
+1. Copy `archboki-dark-theme.el` to `archboki-<name>-theme.el`.
 2. Rename the `deftheme`/`provide-theme` symbol to `archboki-<name>`.
 3. Change the palette values in the `archboki-themes--set-faces` call.
 4. Update the table above in this README.

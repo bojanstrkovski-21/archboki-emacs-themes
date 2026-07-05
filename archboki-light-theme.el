@@ -27,6 +27,16 @@
 Merged from default_light.xaml (UI chrome) and Everforest Light
 (syntax accents).")
 
+;; Give the active modeline a soft green tint (echoing the
+;; Everforest-derived green accent used elsewhere, e.g. Doom's
+;; dashboard shortcuts) instead of the engine's default sage-grey
+;; panel color. Emacs themes give priority to the first
+;; `custom-theme-set-faces' call for a given face, so this override
+;; must be registered before `archboki-themes--set-faces' below.
+(custom-theme-set-faces
+ 'archboki-light
+ '(mode-line ((t (:foreground "#1A1A1A" :background "#DDE3BA")))))
+
 (archboki-themes--set-faces
  'archboki-light
  '((background   . "#F3F6EE")

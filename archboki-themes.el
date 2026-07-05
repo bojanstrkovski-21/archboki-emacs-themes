@@ -58,8 +58,8 @@ magenta, cyan, gray, orange, hint, cursorline."
      `(evil-ex-search ((t (:foreground ,.background :background ,.cyan))))
 
      ;; Modeline
-     `(mode-line ((t (:foreground ,.background :background ,.darkblue))))
-     `(mode-line-inactive ((t (:foreground ,.background :background ,.darkblue))))
+     `(mode-line ((t (:foreground ,.foreground :background ,.darkblue))))
+     `(mode-line-inactive ((t (:foreground ,.gray :background ,.darkblue))))
      `(mode-line-buffer-id ((t (:foreground ,.foreground :bold t))))
 
      ;; Line numbers / gutters

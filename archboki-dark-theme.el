@@ -1,4 +1,4 @@
-;;; archboki-theme.el --- Dark theme with slate-blue background and neon accents -*- lexical-binding: t; no-byte-compile: t; -*-
+;;; archboki-dark-theme.el --- Dark theme with slate-blue background and neon accents -*- lexical-binding: t; no-byte-compile: t; -*-
 
 ;; Author: bojanstrkovski-21
 ;; URL: https://github.com/bojanstrkovski-21/archboki-themes
@@ -16,12 +16,12 @@
 
 (require 'archboki-themes)
 
-(deftheme archboki
+(deftheme archboki-dark
   "Dark theme with slate-blue background and neon accents.
 Port of the archboki_nvim Neovim colorscheme.")
 
 (archboki-themes--set-faces
- 'archboki
+ 'archboki-dark
  '((background   . "#1d283a")
    (foreground   . "#c9e79a")
    (red          . "#FF5370")
@@ -41,6 +41,6 @@ Port of the archboki_nvim Neovim colorscheme.")
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'archboki)
+(provide-theme 'archboki-dark)
 
-;;; archboki-theme.el ends here
+;;; archboki-dark-theme.el ends here
