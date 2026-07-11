@@ -2,7 +2,7 @@
 
 ;; Author: bojanstrkovski-21
 ;; URL: https://github.com/bojanstrkovski-21/archboki-themes
-;; Package-Requires: ((emacs "27.1")
+;; Package-Requires: ((emacs "27.1"))
 
 ;; This file is not part of GNU Emacs.
 
