@@ -46,7 +46,14 @@ Merged from default_light.xaml (UI chrome) and Everforest Light
  '(doom-modeline-project-dir ((t (:foreground "#1A523D" :bold t))))
  '(doom-modeline-info ((t (:foreground "#394100"))))
  '(doom-modeline-warning ((t (:foreground "#7C3806"))))
- '(doom-modeline-urgent ((t (:foreground "#AA0A07")))))
+ '(doom-modeline-urgent ((t (:foreground "#AA0A07"))))
+ '(tab-bar ((t (:foreground "#1A1A1A" :background "#a7ad84"))))
+ '(tab-bar-tab ((t (:foreground "#1A1A1A" :background "#A7B98C" :bold t))))
+ '(tab-bar-tab-inactive ((t (:foreground "#606C5E" :background "#a7ad84"))))
+ '(tab-line ((t (:foreground "#1A1A1A" :background "#a7ad84"))))
+ '(centaur-tabs-default ((t (:foreground "#1A1A1A" :background "#a7ad84"))))
+ '(centaur-tabs-selected ((t (:foreground "#1A1A1A" :background "#A7B98C" :bold t))))
+ '(centaur-tabs-unselected ((t (:foreground "#606C5E" :background "#a7ad84")))))
 
 (archboki-themes--set-faces
  'archboki-light-2

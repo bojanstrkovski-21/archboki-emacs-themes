@@ -67,6 +67,20 @@ magenta, cyan, gray, orange, hint, cursorline."
      `(mode-line-inactive ((t (:foreground ,.gray :background ,.darkblue))))
      `(mode-line-buffer-id ((t (:foreground ,.foreground :bold t))))
 
+     ;; Tab bar / tab line / centaur-tabs
+     `(tab-bar ((t (:foreground ,.foreground :background ,.darkblue))))
+     `(tab-bar-tab ((t (:foreground ,.foreground :background ,.cursorline :bold t))))
+     `(tab-bar-tab-inactive ((t (:foreground ,.gray :background ,.darkblue))))
+     `(tab-line ((t (:foreground ,.foreground :background ,.darkblue))))
+     `(centaur-tabs-default ((t (:foreground ,.foreground :background ,.darkblue))))
+     `(centaur-tabs-selected ((t (:foreground ,.foreground :background ,.cursorline :bold t))))
+     `(centaur-tabs-unselected ((t (:foreground ,.gray :background ,.darkblue))))
+     `(centaur-tabs-selected-modified ((t (:foreground ,.yellow :background ,.cursorline :bold t))))
+     `(centaur-tabs-unselected-modified ((t (:foreground ,.orange :background ,.darkblue))))
+     `(centaur-tabs-active-bar-face ((t (:background ,.cyan))))
+     `(centaur-tabs-modified-marker-selected ((t (:foreground ,.yellow :background ,.cursorline))))
+     `(centaur-tabs-modified-marker-unselected ((t (:foreground ,.orange :background ,.darkblue))))
+
      ;; Line numbers / gutters
      `(line-number ((t (:foreground ,.blue :background ,.background))))
      `(line-number-current-line ((t (:foreground ,.yellow :background ,.cursorline :bold t))))
